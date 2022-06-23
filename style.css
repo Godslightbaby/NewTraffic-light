@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#light{
+   background-color: black;
+   height: 200px;
+   width: 70px; 
+   display: flex;
+   flex-direction: column;
+   margin: 50px auto;
+   border-radius: 100px;
+   align-items: center;
+   justify-content: space-between;
+   padding: 5px;
+}
+.circle{
+    background-color: rgba(241, 221, 221, 0.7);
+    border-radius: 70%;
+    height: 50px;
+width: 50px;
+position: relative;
+}
+.circle.red{
+    background-color: red;
+}
+.circle.yellow{
+    background-color: yellow;
+}
+.circle.green{
+    background-color: green;
+}
